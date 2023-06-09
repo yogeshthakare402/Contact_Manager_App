@@ -40,7 +40,7 @@ function ChartsAndMapPage() {
         countryData = res.data;
       }).then(()=>{
         countryData.map((data)=>{
-          countries.push({
+          return countries.push({
             name:data.country,
             activeCases: data.active,
             recoveredCases : data.recovered,

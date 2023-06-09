@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 function Map({ countryMap }) {
     const position = [51.505, -0.09]
